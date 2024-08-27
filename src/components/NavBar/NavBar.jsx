@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import { Link, NavLink, useNavigate } from 'react-router-dom';
+import {  NavLink, useNavigate } from 'react-router-dom';
 import { UserContext } from '../../context/UserContext';
 import { cartContext } from '../../context/CartContext';
 import logo from '../../assets/images/freshcart-logo.svg';

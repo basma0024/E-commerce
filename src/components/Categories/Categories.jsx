@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
-import style from './categories.module.css';
+// import style from './categories.module.css';
 import { Helmet } from 'react-helmet';
 
 export default function Categories() {

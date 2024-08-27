@@ -1,11 +1,11 @@
 import React, { useContext, useEffect, useState } from 'react';
-import style from './products.module.css';
+// import style from './products.module.css';
 import useProducts from '../../Hooks/useProducts';
 import { Link } from 'react-router-dom';
 import toast from 'react-hot-toast';
 import { cartContext } from '../../context/CartContext';
 import { wishContext } from '../../context/WishlistContext';
-import { useParams } from 'react-router-dom';
+// import { useParams } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
 
