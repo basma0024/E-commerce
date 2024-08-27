@@ -15,7 +15,6 @@ import Register from './components/Register/Register';
 import NotFound from './components/NotFound/NotFound';
 import Home from './components/Home/Home';
 import Forget from './components/forget/Forget';
-import CounterContextProvider from './context/CounterContext';
 import UserContextProvider from './context/UserContext';
 import ProtectRoute from './components/ProtectRoute/ProtectRoute';
 import ProductDetails from './components/ProductDetails/ProductDetails';
@@ -69,20 +68,17 @@ function App() {
         <UserContextProvider>
 
           <CartContext>
-            {/* <RecentProducts /> */}
+          
 
 
 <WishlistContextProvider>
 
-          <CounterContextProvider>
+          
 
             <RouterProvider router={x}/>
             <Toaster/>
             <ReactQueryDevtools/>
-            {/* <RecentProducts /> */}
            
-
-          </CounterContextProvider>
           </WishlistContextProvider>
 
           </CartContext>
